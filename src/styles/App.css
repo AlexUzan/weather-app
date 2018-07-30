@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: Lato, sans-serif;
+  background-color: #B7B7B7;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background-color: #222222;
+  font-size: 1.5em;
+  font-weight: 50;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+header img {
+  height: 200px;
+  margin: -60px;
+}
+
+header h1 {
+  /* padding-bottom: 20px; */
+}
+
+.page-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-container h2 {
+  font-size: 1.65em;
+  font-weight: 600;
+  width: 23%;
+}
+
+.page-container p {
+  margin-top: 0 ;
+}
+
+#weather-display {
+  width: 23%;
+}
+
+#weather-display img {
+  width: 25%;
+  height: auto;
+}
+
+#weather-display p {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+#unit-button {
+  width: 23%;
+  padding: 20px;
+  color: #fff;
+  background-color: #222222;
+  border: none;
+  cursor: pointer;
+}
+
+#unit-button:hover {
+  background-color: #5E5E5E;
+}
