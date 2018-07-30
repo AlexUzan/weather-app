@@ -1,4 +1,5 @@
 This is a small weather application, built with React.js and Redux, for training purposes.
+
 This was made using [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
